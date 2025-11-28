@@ -36,7 +36,7 @@ NNPD is a **non-parametric, data-driven algorithm** that:
 
 - detects statistically significant increasing/decreasing segments  
 - reconstructs oscillatory cycles  
-- assigns continuous phase trajectories θ(t)  
+- assigns continuous phase trajectories $\theta(t)$
 - handles missing values, irregular sampling, and nonstationary signals  
 - requires no sinusoidal or parametric assumptions  
 
@@ -60,19 +60,17 @@ Identifies coherent phase clusters (e.g., light-phase / dark-phase groups).
 #### (c) Synchronization analysis  
 Computes the **order parameter** for each cluster:
 
-\[
-z_c(t) = R_c(t)e^{i\phi_c(t)}
-\]
+$z_c(t) = R_c(t)e^{i\phi_c(t)}$
 
 Where:
 
-- **R_c(t)** = phase coherence (0 = dispersed, 1 = synchronized)  
-- **φ_c(t)** = mean phase of the cluster  
+- **$R_c(t)$** = phase coherence (0 = dispersed, 1 = synchronized)  
+- **$\phi_c(t)$** = mean phase of the cluster  
 
 **Outputs:**
 
 - cluster labels for each MAG  
-- time-resolved order parameters R_c(t) and mean phases φ_c(t)
+- time-resolved order parameters $R_c(t)$ and mean phases $\phi_c(t)$
 
 ---
 
