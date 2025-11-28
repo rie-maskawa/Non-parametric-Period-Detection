@@ -18,7 +18,8 @@ Non-parametric-Period-Detection/
 │   └── MAG_TSS_test.csv        # Example MAG abundance data (TSS-normalized)
 │
 └── input_for_PhaseAnalysis/
-    └── MAG_test_summary.csv    # Example summary table for downstream phase clustering
+│   ├── MAG_test_phase.csv       # Example phase trajectories (NNPD output)
+│   └── MAG_test_summary.csv    # Example summary table for downstream phase clustering
 │
 └── LICENSE
 │
