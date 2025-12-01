@@ -1,6 +1,6 @@
-# Non-Parametric Period Detection (NNPD)
+# Non-Parametric Period Detection (NPPD)
 
-This repository provides a complete workflow for extracting oscillatory structure from high-frequency microbiome time-series data using **Non-Parametric Period Detection (NNPD)** and downstream **phase-based clustering and synchronization analysis**.
+This repository provides a complete workflow for extracting oscillatory structure from high-frequency microbiome time-series data using **Non-Parametric Period Detection (NPPD)** and downstream **phase-based clustering and synchronization analysis**.
 
 The workflow is designed for genome-resolved microbiome datasets but is applicable to any uneven, noisy, or nonstationary biological time-series.
 
